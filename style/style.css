@@ -1,7 +1,10 @@
 * {
     padding: 0;
     margin: 0;
+
 }
+
+
 
 /* primary section */
 
@@ -293,3 +296,10 @@ img {
     margin: 0 240px 216px 240px;
 
 }
+
+/* @media screen and (max-width: 576px) {
+    .nav {
+        width: 100%;
+        
+    }
+} */
