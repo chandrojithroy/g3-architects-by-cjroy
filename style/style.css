@@ -224,11 +224,12 @@ img {
 
 
 
-.facts-main{
+.facts-main {
     display: flex;
     margin: 100px 250px 180px 250px;
     gap: 165px;
 }
+
 .facts-img {
     padding: 45px 30px;
     border: 1px solid #FF900E;
@@ -264,46 +265,31 @@ img {
     margin-bottom: 24px;
 }
 
-.sponspors-title{
+.sponspors-title {
     font-weight: 400;
-font-size: 16px;
-text-align: center;
-color: #727272;
-margin: 0 690px;
+    font-size: 16px;
+    text-align: center;
+    color: #727272;
+    margin: 0 690px;
 }
 
-.sponspors-main{
+.sponspors-main {
     align-items: center;
     margin: 50px 240px 130px 240px;
 }
 
-.sponspors-img{
+.sponspors-img {
     margin-right: 105px;
+    filter: grayscale(100%);
 
 }
 
-.footer-main{
+.footer-main {
     padding: 40px 410px;
     text-align: center;
     color: #424242;
     background: #FFF4E7;
-border-radius: 8px;
-margin: 0 240px 216px 240px;
+    border-radius: 8px;
+    margin: 0 240px 216px 240px;
+
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
