@@ -297,9 +297,147 @@ img {
 
 }
 
-/* @media screen and (max-width: 576px) {
-    .nav {
-        width: 100%;
-        
+
+
+@media screen and (max-width: 576px) {
+
+    nav {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
     }
-} */
+
+    .header-primary {
+        width: 100%;
+
+    }
+
+    .header-brand {
+        padding: 10px;
+    }
+
+    .img-banner-2 {
+        width: 370px;
+    }
+
+    .img-banner {
+        border-radius: 8px;
+        text-align: center;
+        padding: 50px 30px 10px 4px;
+    }
+
+    .photo-details {
+        padding-left: 2px;
+    }
+
+    .photo-gallery {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .photo-gallery-main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo-details {
+        padding: 5px;
+    }
+
+    .architect {
+        display: flex;
+        flex-direction: column;
+        padding: 5px
+    }
+
+    .architect-description {
+        display: flex;
+    }
+
+    .button-and-img {
+        background-image: url(../images/architect.png);
+    }
+
+    .facts {
+        font-weight: 700;
+        font-size: 45px;
+        color: #131313;
+    }
+
+    .facts-title {
+        font-weight: 400;
+        font-size: 16px;
+        color: #727272;
+    }
+
+    .facts-main {
+        display: flex;
+        gap: 5px;
+        flex-direction: column;
+        padding: 5px;
+
+    }
+
+    .sponspors-main {
+        padding: 30px;
+        align-items: center
+    }
+
+    .footer-main {
+        text-align: center;
+        color: #424242;
+        background: #FFF4E7;
+        border-radius: 8px;
+    }
+
+    .photo-gallery-main {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .architect {
+        display: flex;
+        padding: 100px;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .facts {
+        margin: 0;
+    }
+
+    .facts-title {
+        margin: 0;
+    }
+
+    .facts-main {
+        margin: 0;
+    }
+
+    .sponspors-main {
+        margin: 0;
+    }
+
+    .footer-main {
+        margin: 0;
+        padding: 0;
+    }
+    .architect {
+        display: flex;
+        padding: 0px;
+        align-items: flex-start;
+        margin: 0;
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+}
